@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill="none">
+  <rect width="64" height="64" rx="16" fill="#FEE2E2"/>
+  <rect x="12" y="16" width="40" height="32" rx="4" stroke="#E8614D" stroke-width="2" fill="none"/>
+  <path d="M20 28L28 36L44 20" stroke="#E8614D" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="32" y="52" font-family="Arial" font-size="8" fill="#E8614D" text-anchor="middle" font-weight="bold">STAR</text>
+</svg>

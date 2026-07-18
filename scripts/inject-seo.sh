@@ -1,0 +1,37 @@
+#!/bin/bash
+# Post-build SEO injection script for Cloudflare Pages
+# Updated: 2026-07-09 — Added HowTo, WebSite, BreadcrumbList schemas
+HTML_DIR="/root/projects/ai-interview-coach/frontend/.vercel/output/static"
+
+# 1. FAQPage Schema (matches homepage FAQ exactly)
+SCHEMA_FAQ='{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Is StarInterview really free?","acceptedAnswer":{"@type":"Answer","text":"Yes. Practice STAR method answers and generate interview answers without creating an account or paying anything. No credit card required."}},{"@type":"Question","name":"What is the STAR method?","acceptedAnswer":{"@type":"Answer","text":"STAR stands for Situation, Task, Action, Result. It is a structured technique for answering behavioral interview questions by describing a specific situation, your task, the action you took, and the measurable result. It helps you give clear, compelling answers that interviewers can easily follow."}},{"@type":"Question","name":"How does the AI feedback work?","acceptedAnswer":{"@type":"Answer","text":"Our AI scores each component of your STAR answer on a scale of 1-10 and gives specific suggestions — like adding measurable results, clarifying your personal contribution, or strengthening the Action section. You get an overall score out of 100 with detailed improvement tips."}},{"@type":"Question","name":"Do I need to create an account?","acceptedAnswer":{"@type":"Answer","text":"No. Practice and generate answers instantly without signing up. No credit card, no friction. An optional free account lets you save history and track your progress over time."}},{"@type":"Question","name":"Can this help if English is not my first language?","acceptedAnswer":{"@type":"Answer","text":"Yes. The AI provides language clarity suggestions alongside STAR structure feedback. It is specifically designed for non-native English speakers preparing for interviews in English."}},{"@type":"Question","name":"How long should a STAR method answer be?","acceptedAnswer":{"@type":"Answer","text":"A strong STAR answer is typically 1-2 minutes when spoken, or about 150-250 words when written. The key is being specific and concise — include enough detail to paint a clear picture, but stay focused on the most impactful parts of your story."}},{"@type":"Question","name":"What types of interview questions does this work for?","acceptedAnswer":{"@type":"Answer","text":"StarInterview works best for behavioral interview questions — the kind that start with Tell me about a time when... or Give me an example of... These questions test how you handled real situations in the past. The tool also supports situational and competency-based questions."}}]'
+
+# 2. HowTo Schema (matches "How it works" section)
+SCHEMA_HOWTO='{"@context":"https://schema.org","@type":"HowTo","name":"How to Practice STAR Method Interviews with AI","description":"Step-by-step guide to practicing behavioral interview answers using StarInterview'\''s AI-powered feedback tool.","totalTime":"PT5M","tool":[{"@type":"HowToTool","name":"StarInterview AI Tool","url":"https://starinterview.org"}],"step":[{"@type":"HowToStep","position":1,"name":"Pick a question","text":"Choose from common behavioral interview questions or paste your own question from a real job description.","url":"https://starinterview.org/practice"},{"@type":"HowToStep","position":2,"name":"Write your STAR answer","text":"Describe the Situation, Task, Action, and Result from your professional experience using the STAR method framework.","url":"https://starinterview.org/practice"},{"@type":"HowToStep","position":3,"name":"Get AI feedback","text":"Receive instant AI scoring on each STAR component, see your overall score out of 100, and get specific suggestions to improve your answer.","url":"https://starinterview.org/practice"}]}'
+
+# 3. SoftwareApplication Schema
+SCHEMA_APP='{"@context":"https://schema.org","@type":"SoftwareApplication","name":"StarInterview","url":"https://starinterview.org","description":"Free AI-powered STAR method interview practice tool. Get instant feedback on your behavioral interview answers with scoring, suggestions, and answer generation.","applicationCategory":"EducationalApplication","operatingSystem":"Web Browser","offers":{"@type":"Offer","price":"0","priceCurrency":"USD","description":"Free forever. No signup required."},"featureList":["STAR Method Scoring (Situation, Task, Action, Result)","AI Answer Generator","Voice Input Support","7 Interview Languages","300+ Practice Questions","Non-Native Speaker Support"],"author":{"@type":"Organization","name":"StarInterview","url":"https://starinterview.org"}}'
+
+# 4. Organization Schema
+SCHEMA_ORG='{"@context":"https://schema.org","@type":"Organization","name":"StarInterview","url":"https://starinterview.org","logo":"https://starinterview.org/favicon.ico","sameAs":[],"description":"AI-powered interview preparation platform specializing in STAR method practice and behavioral interview coaching."}'
+
+# 5. WebSite Schema (enables sitelinks search box)
+SCHEMA_WEBSITE='{"@context":"https://schema.org","@type":"WebSite","name":"StarInterview","url":"https://starinterview.org","potentialAction":{"@type":"SearchAction","target":{"@type":"EntryPoint","url":"https://starinterview.org/practice?q={search_term_string}"},"query-input":"required name=search_term_string"}}'
+
+# SEO meta tags
+SEO_META='<link rel="canonical" href="https://starinterview.org/"/><meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"/><meta property="og:type" content="website"/><meta property="og:locale" content="en_US"/><meta property="og:url" content="https://starinterview.org"/><meta property="og:site_name" content="StarInterview"/><meta property="og:title" content="STAR Method Practice &amp; Interview Answer Generator | Free"/><meta property="og:description" content="Practice the STAR method with AI-powered feedback and generate strong interview answers for free. No signup required."/><meta property="og:image" content="https://starinterview.org/og-image.png"/><meta property="og:image:width" content="1200"/><meta property="og:image:height" content="630"/><meta property="og:image:alt" content="StarInterview - Practice STAR Method Interviews with AI"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content="STAR Method Practice &amp; Interview Answer Generator | Free"/><meta name="twitter:description" content="Practice the STAR method with AI-powered feedback. Free, no signup."/><meta name="twitter:image" content="https://starinterview.org/og-image.png"/>'
+
+# Inject into all HTML files
+find "$HTML_DIR" -name "*.html" | while read file; do
+  # Inject SEO meta tags after <head>
+  if ! grep -q "og:title" "$file"; then
+    sed -i "s|<head>|<head>${SEO_META}|" "$file"
+  fi
+  
+  # Inject Schema JSON-LD before </head>
+  if ! grep -q "application/ld+json" "$file"; then
+    sed -i "s|</head>|<script type=\"application/ld+json\">${SCHEMA_FAQ}</script><script type=\"application/ld+json\">${SCHEMA_HOWTO}</script><script type=\"application/ld+json\">${SCHEMA_APP}</script><script type=\"application/ld+json\">${SCHEMA_ORG}</script><script type=\"application/ld+json\">${SCHEMA_WEBSITE}</script></head>|" "$file"
+  fi
+done
+
+echo "✅ SEO elements injected: FAQPage, HowTo, SoftwareApplication, Organization, WebSite schemas + OG/Twitter meta"

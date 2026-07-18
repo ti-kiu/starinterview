@@ -1,0 +1,18 @@
+{
+  "runtime": "edge",
+  "name": "api/generate-questions",
+  "deploymentTarget": "v8-worker",
+  "entrypoint": "index.js",
+  "assets": [],
+  "framework": {
+    "slug": "nextjs",
+    "version": "15.5.20"
+  },
+  "environment": {
+    "__NEXT_BUILD_ID": "hTr7FDuXEPG-Rr-ia33mK",
+    "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "Q03xEw/uZJjET/3Rb1DFn9xHQ/TYWx65/053WiWIKmI=",
+    "__NEXT_PREVIEW_MODE_ID": "b191c248de6cc2c9f99ecd0ed2c9e737",
+    "__NEXT_PREVIEW_MODE_SIGNING_KEY": "4520e638a8b4b691960f55c232fcc2b78faacc3162a0375fecdac34a2b0b19be",
+    "__NEXT_PREVIEW_MODE_ENCRYPTION_KEY": "911785ad490fbaeac88420ab57e413cf866248b525e355c01339f00c75a92b9c"
+  }
+}
