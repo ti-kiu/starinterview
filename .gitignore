@@ -18,3 +18,8 @@ list-dns.py
 list-zones.py
 set-compat.py
 fix-compat.py
+*.old
+*.bak
+*.tmp
+wrangler.toml
+.github_token
