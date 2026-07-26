@@ -1,0 +1,52 @@
+# StarInterview
+
+> AI-powered STAR method interview practice tool. Practice behavioral interview answers with instant AI feedback.
+
+## What is StarInterview?
+
+StarInterview is a free web tool that helps job seekers practice the STAR method (Situation, Task, Action, Result) for behavioral interview questions. Users type or speak their answer and receive instant AI-powered scoring on each STAR component.
+
+## Key Features
+
+- **STAR Method Scoring**: Every answer scored on Situation, Task, Action, and Result (1-10 each, out of 100)
+- **Answer Generator**: Describe your experience, get a structured STAR answer
+- **300+ Practice Questions**: Behavioral, technical, and situational questions
+- **Voice Input**: Practice speaking answers, not just typing
+- **7 Languages**: Support for non-native English speakers
+- **No Account Required**: Start practicing instantly, free forever
+
+## How the STAR Method Works
+
+1. **Situation**: Set the scene — describe the context (1-2 sentences)
+2. **Task**: Explain your specific responsibility or goal
+3. **Action**: Detail what YOU did (use "I" not "we")
+4. **Result**: Share the measurable outcome (%, $, time saved)
+
+## Pages
+
+- [Home](https://starinterview.org/) — Overview and getting started
+- [Practice](https://starinterview.org/practice) — Interactive STAR method practice with AI scoring
+- [Answer Generator](https://starinterview.org/generator) — Generate structured STAR answers from your experience
+- [STAR Method Guide](https://starinterview.org/star-method) — Complete guide to the STAR framework
+- [Behavioral Interview Guide](https://starinterview.org/behavioral-interview) — Common behavioral questions by category
+- [Tell Me About Yourself](https://starinterview.org/how-to-answer-tell-me-about-yourself) — Framework for the most common interview question
+- [Pricing](https://starinterview.org/pricing) — Free and Pro plans
+
+## FAQ
+
+**Is StarInterview free?**
+Yes. Core features are free forever with no signup. Pro plan ($9.99/mo) adds 50 daily practices, voice input, and progress tracking.
+
+**What is the STAR method?**
+STAR stands for Situation, Task, Action, Result. It's the standard framework for answering behavioral interview questions used by companies like Google, Amazon, Meta, Microsoft, and Apple.
+
+**How does the AI feedback work?**
+The AI scores each STAR component 1-10 and gives specific improvement suggestions — like adding measurable results or clarifying your personal contribution.
+
+**Who is this for?**
+Job seekers preparing for behavioral interviews, especially non-native English speakers who want to practice structuring answers clearly.
+
+## Contact
+
+- Website: https://starinterview.org
+- Email: hello@starinterview.org

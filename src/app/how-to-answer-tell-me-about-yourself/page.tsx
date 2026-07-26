@@ -64,6 +64,27 @@ export default function TellMeAboutYourselfPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Article",
+            headline: 'How to Answer "Tell Me About Yourself" — Examples & Tips',
+            description: "Learn the proven framework to craft a compelling answer to the most common interview question. With examples and AI practice.",
+            author: { "@type": "Organization", name: "StarInterview", url: "https://starinterview.org" },
+            publisher: { "@type": "Organization", name: "StarInterview", url: "https://starinterview.org", logo: { "@type": "ImageObject", url: "https://starinterview.org/favicon-32.png" } },
+            datePublished: "2026-01-15",
+            dateModified: "2026-07-25",
+            mainEntityOfPage: "https://starinterview.org/how-to-answer-tell-me-about-yourself",
+            image: "https://starinterview.org/og-image.png",
+            speakable: {
+              "@type": "SpeakableSpecification",
+              cssSelector: ["h1", "h2", ".speakable"],
+            },
+          }),
+        }}
+      />
 
       <div className="max-w-[1200px] mx-auto px-4 md:px-6 py-8 md:py-12">
         <div className="max-w-3xl mx-auto">

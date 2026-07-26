@@ -194,6 +194,10 @@ export default function StarMethodPage() {
               dateModified: "2026-07-09",
               mainEntityOfPage: "https://starinterview.org/star-method",
               image: "https://starinterview.org/og-image.png",
+              speakable: {
+                "@type": "SpeakableSpecification",
+                cssSelector: ["h1", "h2", ".speakable"],
+              },
             }),
           }}
         />

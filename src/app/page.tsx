@@ -86,6 +86,27 @@ const testimonials = [
 export default function Home() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Article",
+            headline: "STAR Method Practice & Interview Answer Generator",
+            description: "Practice the STAR method with AI-powered feedback and generate strong interview answers for free. No signup required.",
+            author: { "@type": "Organization", name: "StarInterview", url: "https://starinterview.org" },
+            publisher: { "@type": "Organization", name: "StarInterview", url: "https://starinterview.org", logo: { "@type": "ImageObject", url: "https://starinterview.org/favicon-32.png" } },
+            datePublished: "2026-01-15",
+            dateModified: "2026-07-25",
+            mainEntityOfPage: "https://starinterview.org",
+            image: "https://starinterview.org/og-image.png",
+            speakable: {
+              "@type": "SpeakableSpecification",
+              cssSelector: ["h1", "h2", ".speakable"],
+            },
+          }),
+        }}
+      />
       {/* Hero — Warm white background */}
       <section
         className="text-neutral-900 pt-20 pb-28 md:pt-28 md:pb-36"

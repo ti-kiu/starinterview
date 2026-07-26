@@ -36,9 +36,26 @@ const pricingFaq = [
   },
 ];
 
+const pricingFaqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: pricingFaq.map((item) => ({
+    "@type": "Question",
+    name: item.question,
+    acceptedAnswer: {
+      "@type": "Answer",
+      text: item.answer,
+    },
+  })),
+};
+
 export default function PricingPage() {
   return (
     <div className="bg-neutral-50 min-h-screen">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(pricingFaqSchema) }}
+      />
       {/* Header */}
       <section className="pt-16 pb-8 md:pt-24 md:pb-12">
         <div className="max-w-[1100px] mx-auto px-5 text-center">
