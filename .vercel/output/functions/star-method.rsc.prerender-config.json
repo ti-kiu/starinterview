@@ -2,7 +2,7 @@
   "type": "Prerender",
   "expiration": false,
   "isDynamicRoute": false,
-  "group": 12,
+  "group": 11,
   "bypassToken": "8d965fe60659ab61eca720705758014e",
   "experimentalBypassFor": [
     {
