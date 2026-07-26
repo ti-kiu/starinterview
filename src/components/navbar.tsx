@@ -25,6 +25,9 @@ export default function Navbar() {
           <Link href="/star-method" className="text-neutral-600 hover:text-primary transition font-medium">
             STAR Guide
           </Link>
+          <Link href="/interview-questions" className="text-neutral-600 hover:text-primary transition font-medium">
+            Questions
+          </Link>
           <Link href="/pricing" className="text-neutral-600 hover:text-primary transition font-medium">
             Pricing
           </Link>
@@ -78,6 +81,13 @@ export default function Navbar() {
               onClick={() => setIsOpen(false)}
             >
               STAR Guide
+            </Link>
+            <Link 
+              href="/interview-questions" 
+              className="block py-2 text-neutral-600 hover:text-primary font-medium"
+              onClick={() => setIsOpen(false)}
+            >
+              Questions
             </Link>
             <Link 
               href="/pricing" 

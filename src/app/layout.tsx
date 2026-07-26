@@ -154,6 +154,7 @@ function Footer() {
               <li><Link href="/practice" className="hover:text-primary transition">Practice</Link></li>
               <li><Link href="/generator" className="hover:text-primary transition">Answer Generator</Link></li>
               <li><Link href="/star-method" className="hover:text-primary transition">STAR Method Guide</Link></li>
+              <li><Link href="/interview-questions" className="hover:text-primary transition">Interview Questions</Link></li>
               <li><Link href="/pricing" className="hover:text-primary transition">Pricing</Link></li>
             </ul>
           </div>

@@ -33,6 +33,75 @@
     <lastmod>2026-07-26</lastmod>
     <priority>0.8</priority>
   </url>
+
+  <!-- Interview Questions Index -->
+  <url>
+    <loc>https://starinterview.org/interview-questions</loc>
+    <lastmod>2026-07-26</lastmod>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Interview Questions (Programmatic Pages) -->
+  <url>
+    <loc>https://starinterview.org/interview-questions/software-engineer</loc>
+    <lastmod>2026-07-26</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://starinterview.org/interview-questions/product-manager</loc>
+    <lastmod>2026-07-26</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://starinterview.org/interview-questions/data-analyst</loc>
+    <lastmod>2026-07-26</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://starinterview.org/interview-questions/amazon</loc>
+    <lastmod>2026-07-26</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://starinterview.org/interview-questions/google</loc>
+    <lastmod>2026-07-26</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://starinterview.org/interview-questions/leadership</loc>
+    <lastmod>2026-07-26</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://starinterview.org/interview-questions/conflict-resolution</loc>
+    <lastmod>2026-07-26</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://starinterview.org/interview-questions/tell-me-about-yourself</loc>
+    <lastmod>2026-07-26</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://starinterview.org/interview-questions/marketing-manager</loc>
+    <lastmod>2026-07-26</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://starinterview.org/interview-questions/project-manager</loc>
+    <lastmod>2026-07-26</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://starinterview.org/interview-questions/meta</loc>
+    <lastmod>2026-07-26</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://starinterview.org/interview-questions/microsoft</loc>
+    <lastmod>2026-07-26</lastmod>
+    <priority>0.7</priority>
+  </url>
   
   <!-- Pricing -->
   <url>

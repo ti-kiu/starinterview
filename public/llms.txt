@@ -32,6 +32,27 @@ StarInterview is a free web tool that helps job seekers practice the STAR method
 - [Tell Me About Yourself](https://starinterview.org/how-to-answer-tell-me-about-yourself) — Framework for the most common interview question
 - [Pricing](https://starinterview.org/pricing) — Free and Pro plans
 
+## Interview Questions by Role
+
+- [Software Engineer Interview Questions](https://starinterview.org/interview-questions/software-engineer)
+- [Product Manager Interview Questions](https://starinterview.org/interview-questions/product-manager)
+- [Data Analyst Interview Questions](https://starinterview.org/interview-questions/data-analyst)
+- [Marketing Manager Interview Questions](https://starinterview.org/interview-questions/marketing-manager)
+- [Project Manager Interview Questions](https://starinterview.org/interview-questions/project-manager)
+
+## Interview Questions by Company
+
+- [Amazon Interview Questions](https://starinterview.org/interview-questions/amazon)
+- [Google Interview Questions](https://starinterview.org/interview-questions/google)
+- [Meta Interview Questions](https://starinterview.org/interview-questions/meta)
+- [Microsoft Interview Questions](https://starinterview.org/interview-questions/microsoft)
+
+## Interview Questions by Competency
+
+- [Leadership Interview Questions](https://starinterview.org/interview-questions/leadership)
+- [Conflict Resolution Interview Questions](https://starinterview.org/interview-questions/conflict-resolution)
+- [Tell Me About Yourself](https://starinterview.org/interview-questions/tell-me-about-yourself)
+
 ## FAQ
 
 **Is StarInterview free?**
