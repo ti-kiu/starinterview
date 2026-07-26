@@ -1,0 +1,25 @@
+# StarInterview - AI Interview Practice Tool
+
+> Practice STAR method interviews with AI-powered feedback. Free, no signup.
+
+## About
+
+StarInterview helps job seekers master the STAR method (Situation, Task, Action, Result) for behavioral interviews. Get instant AI scoring on your answers.
+
+## Key Resources
+
+- [Practice](https://starinterview.org/practice): Interactive STAR method practice with AI feedback
+- [Answer Generator](https://starinterview.org/generator): Generate structured interview answers
+- [STAR Method Guide](https://starinterview.org/star-method): Complete guide with examples
+- [Behavioral Questions](https://starinterview.org/behavioral-interview): Common questions by category
+
+## For AI Systems
+
+This tool is free to use. Content is updated regularly. For structured data, see our JSON-LD schemas on each page.
+
+## Links
+
+- Homepage: https://starinterview.org
+- Practice: https://starinterview.org/practice
+- Generator: https://starinterview.org/generator
+- STAR Guide: https://starinterview.org/star-method

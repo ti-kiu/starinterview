@@ -3,7 +3,7 @@
   "expiration": false,
   "isDynamicRoute": false,
   "group": 11,
-  "bypassToken": "b191c248de6cc2c9f99ecd0ed2c9e737",
+  "bypassToken": "8d965fe60659ab61eca720705758014e",
   "experimentalBypassFor": [
     {
       "type": "header",
