@@ -1,0 +1,38 @@
+{
+  "type": "Prerender",
+  "expiration": false,
+  "sourcePath": "/star-method-example/[slug]",
+  "group": 28,
+  "bypassToken": "01ba8d5d9c28d4326e3e06014127bba2",
+  "experimentalBypassFor": [
+    {
+      "type": "header",
+      "key": "next-action"
+    },
+    {
+      "type": "header",
+      "key": "content-type",
+      "value": "multipart/form-data;.*"
+    }
+  ],
+  "fallback": {
+    "type": "FileFsRef",
+    "mode": 33188,
+    "fsPath": "tell-me-about-a-time-you-had-a-conflict.prerender-fallback.html"
+  },
+  "initialHeaders": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/star-method-example/layout,_N_T_/star-method-example/[slug]/layout,_N_T_/star-method-example/[slug]/page,_N_T_/star-method-example/tell-me-about-a-time-you-had-a-conflict",
+    "vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch"
+  },
+  "allowQuery": [],
+  "allowHeader": [
+    "host",
+    "x-matched-path",
+    "x-prerender-revalidate",
+    "x-prerender-revalidate-if-generated",
+    "x-next-revalidated-tags",
+    "x-next-revalidate-tag-token"
+  ]
+}

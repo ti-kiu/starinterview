@@ -1,10 +1,8 @@
 {
   "type": "Prerender",
   "expiration": 1,
-  "hasFallback": false,
-  "isDynamicRoute": true,
-  "group": 26,
-  "bypassToken": "8d965fe60659ab61eca720705758014e",
+  "group": 34,
+  "bypassToken": "01ba8d5d9c28d4326e3e06014127bba2",
   "experimentalBypassFor": [
     {
       "type": "header",

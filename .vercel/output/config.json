@@ -71,7 +71,7 @@
       "continue": true
     },
     {
-      "src": "^/_next/data/\\-_CYp2OySTaUOiPx5POiO/(.*).json",
+      "src": "^/_next/data/TWt_jhXleILoE64Gt9nWE/(.*).json",
       "dest": "/$1",
       "override": true,
       "continue": true,
@@ -101,7 +101,7 @@
         {
           "type": "header",
           "key": "x-prerender-revalidate",
-          "value": "8d965fe60659ab61eca720705758014e"
+          "value": "01ba8d5d9c28d4326e3e06014127bba2"
         }
       ],
       "middlewarePath": "src/middleware",
@@ -118,7 +118,7 @@
           "key": "x-nextjs-data"
         }
       ],
-      "dest": "/_next/data/-_CYp2OySTaUOiPx5POiO/index.json",
+      "dest": "/_next/data/TWt_jhXleILoE64Gt9nWE/index.json",
       "continue": true,
       "override": true
     },
@@ -130,7 +130,7 @@
           "key": "x-nextjs-data"
         }
       ],
-      "dest": "/_next/data/-_CYp2OySTaUOiPx5POiO/$1.json",
+      "dest": "/_next/data/TWt_jhXleILoE64Gt9nWE/$1.json",
       "continue": true,
       "override": true
     },
@@ -170,7 +170,7 @@
       "handle": "filesystem"
     },
     {
-      "src": "^/_next/data/\\-_CYp2OySTaUOiPx5POiO/(.*).json",
+      "src": "^/_next/data/TWt_jhXleILoE64Gt9nWE/(.*).json",
       "dest": "/$1",
       "continue": true,
       "has": [
@@ -246,7 +246,7 @@
           "key": "x-nextjs-data"
         }
       ],
-      "dest": "/_next/data/-_CYp2OySTaUOiPx5POiO/index.json",
+      "dest": "/_next/data/TWt_jhXleILoE64Gt9nWE/index.json",
       "continue": true
     },
     {
@@ -257,12 +257,16 @@
           "key": "x-nextjs-data"
         }
       ],
-      "dest": "/_next/data/-_CYp2OySTaUOiPx5POiO/$1.json",
+      "dest": "/_next/data/TWt_jhXleILoE64Gt9nWE/$1.json",
       "continue": true
     },
     {
-      "src": "^/_next/data/\\-_CYp2OySTaUOiPx5POiO/interview\\-questions/(?<nxtPslug>[^/]+?)(?:/)?.json$",
-      "dest": "/_next/data/-_CYp2OySTaUOiPx5POiO/interview-questions/[slug].json?nxtPslug=$nxtPslug"
+      "src": "^/_next/data/TWt_jhXleILoE64Gt9nWE/interview\\-questions/(?<nxtPslug>[^/]+?)(?:/)?.json$",
+      "dest": "/_next/data/TWt_jhXleILoE64Gt9nWE/interview-questions/[slug].json?nxtPslug=$nxtPslug"
+    },
+    {
+      "src": "^/_next/data/TWt_jhXleILoE64Gt9nWE/star\\-method\\-example/(?<nxtPslug>[^/]+?)(?:/)?.json$",
+      "dest": "/_next/data/TWt_jhXleILoE64Gt9nWE/star-method-example/[slug].json?nxtPslug=$nxtPslug"
     },
     {
       "src": "^/interview\\-questions/(?<nxtPslug>[^/]+?)(?:\\.rsc)(?:/)?$",
@@ -273,7 +277,15 @@
       "dest": "/interview-questions/[slug]?nxtPslug=$nxtPslug"
     },
     {
-      "src": "^/_next/data/\\-_CYp2OySTaUOiPx5POiO/(.*).json",
+      "src": "^/star\\-method\\-example/(?<nxtPslug>[^/]+?)(?:\\.rsc)(?:/)?$",
+      "dest": "/star-method-example/[slug].rsc?nxtPslug=$nxtPslug"
+    },
+    {
+      "src": "^/star\\-method\\-example/(?<nxtPslug>[^/]+?)(?:/)?$",
+      "dest": "/star-method-example/[slug]?nxtPslug=$nxtPslug"
+    },
+    {
+      "src": "^/_next/data/TWt_jhXleILoE64Gt9nWE/(.*).json",
       "headers": {
         "x-nextjs-matched-path": "/$1"
       },
@@ -281,14 +293,14 @@
       "override": true
     },
     {
-      "src": "^/_next/data/\\-_CYp2OySTaUOiPx5POiO/(.*).json",
+      "src": "^/_next/data/TWt_jhXleILoE64Gt9nWE/(.*).json",
       "dest": "__next_data_catchall"
     },
     {
       "handle": "hit"
     },
     {
-      "src": "/_next/static/(?:[^/]+/pages|pages|chunks|runtime|css|image|media|\\-_CYp2OySTaUOiPx5POiO)/.+",
+      "src": "/_next/static/(?:[^/]+/pages|pages|chunks|runtime|css|image|media|TWt_jhXleILoE64Gt9nWE)/.+",
       "headers": {
         "cache-control": "public,max-age=31536000,immutable"
       },

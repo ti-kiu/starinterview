@@ -18,9 +18,9 @@
 | 04 Compliance | DONE | Privacy/Terms/Cookie Policy 已上线 |
 | 05 Copy | DONE | /root/projects/ai-interview-coach/copy-freeze.md |
 | 06 Design | DONE | 暖白+珊瑚橙，Inter字体 |
-| 07 Frontend | DONE | 10个页面已上线 |
+|| 07 Frontend | DONE | 10个页面 + 12个程序化页面已上线 |
 | 08 Backend | DONE | /api/practice + /api/generate |
-| 09 SEO | PARTIAL | sitemap+schema已做，收录待确认 |
+|| 09 SEO | PARTIAL | 技术SEO+GEO/AEO已补全，收录待确认 |
 | 10 QA | DONE | 所有页面200，API正常 |
 | 11 Launch | DONE | PH 7/14发布，2条评论，Reddit被封 |
 | 12 Review | PENDING | 等PH数据稳定后复盘 |
