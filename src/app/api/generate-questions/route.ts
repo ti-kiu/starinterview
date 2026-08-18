@@ -16,7 +16,7 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    const apiKey = process.env.DASHSCOPE_API_KEY;
+    const apiKey = process.env.DEEPSEEK_API_KEY;
     if (!apiKey) {
       return NextResponse.json(
         { error: "API key not configured" },
@@ -47,7 +47,7 @@ Example format:
 Return ONLY the JSON array, no additional text.`;
 
     const response = await fetch(
-      "https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions",
+      "https://api.deepseek.com/v1/chat/completions",
       {
         method: "POST",
         headers: {
@@ -55,7 +55,7 @@ Return ONLY the JSON array, no additional text.`;
           "Content-Type": "application/json",
         },
         body: JSON.stringify({
-          model: "qwen3.6-flash",
+          model: "deepseek-chat",
           messages: [
             {
               role: "system",

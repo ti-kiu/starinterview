@@ -14,7 +14,7 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    const apiKey = process.env.DASHSCOPE_API_KEY;
+    const apiKey = process.env.DEEPSEEK_API_KEY;
     if (!apiKey) {
       return NextResponse.json(
         { error: "API key not configured" },
@@ -41,7 +41,7 @@ Interview Question: ${question}
 Please generate a strong STAR method answer for this question, tailored to the ${jobTitle} role.`;
 
     const response = await fetch(
-      "https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions",
+      "https://api.deepseek.com/v1/chat/completions",
       {
         method: "POST",
         headers: {
@@ -49,7 +49,7 @@ Please generate a strong STAR method answer for this question, tailored to the $
           Authorization: `Bearer ${apiKey}`,
         },
         body: JSON.stringify({
-          model: "qwen3.6-flash",
+          model: "deepseek-chat",
           messages: [
             { role: "system", content: systemPrompt },
             { role: "user", content: userPrompt },
@@ -62,7 +62,7 @@ Please generate a strong STAR method answer for this question, tailored to the $
 
     if (!response.ok) {
       const errorText = await response.text();
-      console.error("Dashscope API error:", errorText);
+      console.error("DeepSeek API error:", errorText);
       return NextResponse.json(
         { error: "AI service error. Please try again." },
         { status: 502 }
