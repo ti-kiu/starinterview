@@ -302,21 +302,23 @@ export default async function InterviewQuestionPage({
           <div className="max-w-[800px] mx-auto px-5">
             <h2 className="text-lg font-bold mb-4">Related Interview Questions</h2>
             <div className="flex flex-wrap gap-2">
-              {getAllInterviewQuestionSlugs()
-                .filter((s) => s !== slug)
-                .slice(0, 6)
-                .map((s) => (
-                  <Link
-                    key={s}
-                    href={`/interview-questions/${s}`}
-                    className="px-4 py-2 bg-white border border-neutral-200 rounded-lg text-sm font-medium text-neutral-700 hover:border-primary hover:text-primary transition"
-                  >
-                    {s
-                      .split("-")
-                      .map((w) => w.charAt(0).toUpperCase() + w.slice(1))
-                      .join(" ")}
-                  </Link>
-                ))}
+              {(page.relatedSlugs?.length
+                ? page.relatedSlugs
+                : getAllInterviewQuestionSlugs()
+                    .filter((s) => s !== slug)
+                    .slice(0, 6)
+              ).map((s) => (
+                <Link
+                  key={s}
+                  href={`/interview-questions/${s}`}
+                  className="px-4 py-2 bg-white border border-neutral-200 rounded-lg text-sm font-medium text-neutral-700 hover:border-primary hover:text-primary transition"
+                >
+                  {s
+                    .split("-")
+                    .map((w) => w.charAt(0).toUpperCase() + w.slice(1))
+                    .join(" ")}
+                </Link>
+              ))}
             </div>
           </div>
         </section>
