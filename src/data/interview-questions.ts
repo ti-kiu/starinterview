@@ -343,6 +343,26 @@ const pages: InterviewQuestionPage[] = [
         question: "What are the most important Amazon Leadership Principles for behavioral interviews?",
         answer: "Customer Obsession, Ownership, Bias for Action, Deliver Results, and Dive Deep come up most frequently. But be prepared for all 16 — Bar Raisers specifically look for less common ones like 'Learn and Be Curious' and 'Earn Trust'.",
       },
+      {
+        question: "Where can I find an Amazon interview question bank?",
+        answer: "Our Amazon interview question bank covers all 16 Leadership Principles with STAR method examples. Each question includes a sample answer, tips, and common mistakes to avoid. Practice with AI feedback to refine your responses.",
+      },
+      {
+        question: "Do you have an Amazon interview worksheet I can use?",
+        answer: "Yes — our Amazon interview worksheet includes all Leadership Principles, STAR method templates, and example answers. Use it to prepare your stories before your interview loop.",
+      },
+      {
+        question: "What are the top Amazon interview questions and answers?",
+        answer: "The top Amazon interview questions focus on Leadership Principles: Customer Obsession, Ownership, Bias for Action, and Deliver Results. Each answer should follow the STAR method with specific metrics and outcomes.",
+      },
+      {
+        question: "What Amazon interview questions are asked in 2026?",
+        answer: "In 2026, Amazon interview questions continue to focus on Leadership Principles with increased emphasis on AI/ML examples, remote collaboration, and customer obsession in a competitive market.",
+      },
+      {
+        question: "How do I answer interview questions from Amazon effectively?",
+        answer: "When answering interview questions from Amazon, always use the STAR method, reference specific Leadership Principles by name, and include quantifiable results. Prepare 2-3 stories per principle.",
+      },
     ],
     relatedSlugs: ["amazon-star-method", "amazon-values", "amazon-bar-raiser", "amazon-customer-obsession", "leadership"],
   },
@@ -505,6 +525,14 @@ const pages: InterviewQuestionPage[] = [
         question: "What if the conflict wasn't resolved?",
         answer: "That's okay — be honest. Focus on what you did to try to resolve it, what you learned, and how it changed your approach. Interviewers value honesty over a perfect outcome.",
       },
+      {
+        question: "How do I handle a conflict interview question?",
+        answer: "To handle a conflict interview question, use the STAR method: describe the Situation, explain your Task/role, detail the Action you took to resolve it, and share the positive Result. Focus on resolution, not blame.",
+      },
+      {
+        question: "What are the best conflict resolution job interview questions?",
+        answer: "The best conflict resolution job interview questions ask about real workplace disagreements: conflicts with coworkers, disagreements with managers, and cross-functional tensions. Use STAR to show professional resolution skills.",
+      },
     ],
     relatedSlugs: ["conflict-with-coworker", "leadership", "behavioral-interview-questions", "tell-me-about-yourself", "amazon"],
   },
@@ -642,6 +670,10 @@ const pages: InterviewQuestionPage[] = [
       {
         question: "Should I mention specific project management methodologies (Agile, Scrum, etc.)?",
         answer: "Only if relevant to the story. Focus on the outcome and your decision-making process. Saying 'I used Scrum' is less impressive than showing how you adapted the process to deliver results.",
+      },
+      {
+        question: "How do I use the STAR method for project management interviews?",
+        answer: "For project management interviews, use STAR to describe projects: Situation (the project context), Task (your PM responsibilities), Action (how you managed scope, timeline, stakeholders), Result (on-time delivery, budget savings, team satisfaction).",
       },
     ],
     relatedSlugs: ["leadership", "product-manager", "marketing-manager", "behavioral-interview-questions", "conflict-resolution"],
@@ -810,6 +842,14 @@ const pages: InterviewQuestionPage[] = [
         question: "What if I don't have a relevant example?",
         answer: "Use the closest example you have and be honest about the context. Amazon values authenticity. You can also use examples from school, volunteer work, or personal projects.",
       },
+      {
+        question: "What is Amazon's interview framework?",
+        answer: "Amazon's interview framework is based on Leadership Principles evaluated through STAR method answers. Every behavioral question maps to 1-2 principles. The framework includes phone screen, loop interviews (4-6 rounds), and a Bar Raiser evaluation.",
+      },
+      {
+        question: "What is the STAR methodology for Amazon interviews?",
+        answer: "The STAR methodology for Amazon interviews means structuring every answer as Situation, Task, Action, Result. Amazon specifically trains interviewers to evaluate STAR answers against Leadership Principles.",
+      },
     ],
     relatedSlugs: ["amazon", "amazon-values", "amazon-bar-raiser", "star-method-acronym", "star-vs-car-vs-soar"],
   },
@@ -886,6 +926,10 @@ const pages: InterviewQuestionPage[] = [
       {
         question: "What if I'm applying for a technical role?",
         answer: "Technical roles still require Leadership Principle answers. Engineers are expected to demonstrate Customer Obsession, Ownership, and Deliver Results alongside technical skills.",
+      },
+      {
+        question: "What are LP questions at Amazon?",
+        answer: "LP questions at Amazon are behavioral interview questions based on Leadership Principles. Each question maps to 1-2 principles like Customer Obsession, Ownership, or Bias for Action. Your answers must demonstrate these values through STAR method examples.",
       },
     ],
     relatedSlugs: ["amazon", "amazon-customer-obsession", "amazon-bar-raiser", "amazon-star-method", "leadership"],
@@ -1040,6 +1084,18 @@ const pages: InterviewQuestionPage[] = [
       {
         question: "What if I don't have a relevant example?",
         answer: "Use the closest example you have and be transparent. You can also use examples from school, volunteer work, or personal projects. Interviewers value authenticity over perfect examples.",
+      },
+      {
+        question: "What is a STAR short answer?",
+        answer: "A STAR short answer follows the Situation, Task, Action, Result framework in 2-3 minutes. Keep each section to 2-3 sentences, focus most time on Action, and always quantify your Result.",
+      },
+      {
+        question: "What does STAR mean as an acronym?",
+        answer: "STAR stands for Situation, Task, Action, Result. It's the most widely used interview answer framework. S = set the scene, T = explain your role, A = describe what you did, R = share measurable outcomes.",
+      },
+      {
+        question: "Is SMART an interview acronym like STAR?",
+        answer: "SMART (Specific, Measurable, Achievable, Relevant, Time-bound) is a goal-setting framework, not an interview answer method. STAR is the standard for behavioral interviews. Some candidates combine both: set SMART goals within their STAR answers.",
       },
     ],
     relatedSlugs: ["star-vs-car-vs-soar", "behavioral-interview-questions", "star-method-guide", "tell-me-about-yourself", "conflict-resolution"],
@@ -1426,6 +1482,10 @@ const pages: InterviewQuestionPage[] = [
       {
         question: "What if I don't have work experience?",
         answer: "Use examples from school, volunteer work, sports, or personal projects. Interviewers value the skills you demonstrate, not the context.",
+      },
+      {
+        question: "What are behavioral interview questions and answers?",
+        answer: "Behavioral interview questions ask about past experiences: 'Tell me about a time when...' Use the STAR method to structure answers with specific Situation, Task, Action, and Result. Prepare 8-10 stories covering different competencies.",
       },
     ],
     relatedSlugs: ["star-method-acronym", "star-method-guide", "tell-me-about-yourself", "conflict-resolution", "leadership"],
@@ -1967,6 +2027,18 @@ const pages: InterviewQuestionPage[] = [
         question: "What if I can't think of a STAR example during the interview?",
         answer: "It's okay to take 10-15 seconds to think — say 'That's a great question, let me think of the best example.' If you truly don't have a relevant work example, use one from school, volunteer work, or personal projects. Interviewers value the skills you demonstrate, not the context.",
       },
+      {
+        question: "What is the STAR method of answering questions?",
+        answer: "The STAR method of answering questions is a structured approach: Situation (set the context), Task (explain your responsibility), Action (describe what you did), Result (share the outcome with metrics). It's the most effective framework for behavioral interviews.",
+      },
+      {
+        question: "Are there other STAR methods besides the original?",
+        answer: "Variations include CAR (Challenge, Action, Result), SOAR (Situation, Obstacle, Action, Result), and STARL (adding Learning). The core STAR method is the most widely recognized and expected by interviewers.",
+      },
+      {
+        question: "How does the STAR method help with communication skills?",
+        answer: "The STAR method improves communication by giving you a clear structure. It prevents rambling, keeps your story focused, and makes it easy for interviewers to evaluate your answer.",
+      },
     ],
     relatedSlugs: ["star-method-acronym", "star-vs-car-vs-soar", "behavioral-interview-questions", "tell-me-about-yourself", "conflict-resolution"],
   },
@@ -2043,6 +2115,10 @@ const pages: InterviewQuestionPage[] = [
       {
         question: "How is Google's leadership interview different from Amazon's?",
         answer: "Amazon evaluates leadership through the lens of their 16 Leadership Principles (Customer Obsession, Ownership, etc.). Google evaluates leadership more holistically — focusing on influence, impact, collaboration, and intellectual humility. Amazon is more structured; Google is more conversational.",
+      },
+      {
+        question: "What Google leadership interview questions should I prepare for?",
+        answer: "Google leadership interview questions focus on influence without authority, driving impact across teams, and making ambiguous decisions. Prepare STAR examples that demonstrate collaboration, data-driven decisions, and scalable impact.",
       },
     ],
     relatedSlugs: ["google", "googliness", "leadership", "software-engineer", "behavioral-interview-questions"],
