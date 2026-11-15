@@ -54,7 +54,7 @@ const legacyRedirects: { source: string; destination: string }[] = [
   },
   {
     source: "/star-method-interview-questions",
-    destination: "/star-method",
+    destination: "/interview-questions/star-method-guide",
   },
   {
     source: "/star-method-management",
