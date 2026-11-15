@@ -54,53 +54,6 @@ export const metadata: Metadata = {
   },
 };
 
-const faqSchema = {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  mainEntity: [
-    {
-      "@type": "Question",
-      name: "Is StarInterview really free?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "Yes. Practice STAR method answers and generate interview answers without creating an account or paying anything.",
-      },
-    },
-    {
-      "@type": "Question",
-      name: "What is the STAR method?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "STAR stands for Situation, Task, Action, Result. It's a structured way to answer behavioral interview questions with clear, compelling stories from your experience.",
-      },
-    },
-    {
-      "@type": "Question",
-      name: "How does the AI feedback work?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "Our AI scores each component of your STAR answer and gives specific suggestions — like adding measurable results or clarifying your personal contribution.",
-      },
-    },
-    {
-      "@type": "Question",
-      name: "Do I need to create an account?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "No. Practice and generate answers instantly. No signup, no credit card, no friction.",
-      },
-    },
-    {
-      "@type": "Question",
-      name: "Can this help if English is not my first language?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "Yes. The AI provides language clarity suggestions alongside STAR structure feedback, built for non-native speakers.",
-      },
-    },
-  ],
-};
-
 const softwareSchema = {
   "@context": "https://schema.org",
   "@type": "SoftwareApplication",
@@ -196,10 +149,6 @@ export default function RootLayout({
       </head>
       <body className="min-h-full flex flex-col">
         {/* Schema.org Structured Data */}
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
-        />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(softwareSchema) }}
