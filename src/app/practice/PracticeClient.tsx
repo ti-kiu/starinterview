@@ -1,8 +1,6 @@
 "use client";
 
 import { useState, useCallback, useEffect, useRef } from "react";
-import { useSearchParams } from "next/navigation";
-import { Suspense } from "react";
 
 // Speech Recognition types
 interface SpeechRecognitionEvent {
@@ -366,7 +364,6 @@ function getSpeechRecognition(): (new () => SpeechRecognitionInstance) | null {
 }
 
 function PracticePageInner() {
-  const searchParams = useSearchParams();
   const t = translations.en; // Default to English
 
   // Interview info (Step 1)
@@ -628,9 +625,9 @@ function PracticePageInner() {
     return (
       <div className="max-w-[1200px] mx-auto px-4 md:px-6 py-8 md:py-12">
         <div className="max-w-2xl mx-auto">
-          <h1 className="text-2xl md:text-3xl font-bold mb-8">
+          <h2 className="text-2xl md:text-3xl font-bold mb-8">
             {t.createInterview}
-          </h1>
+          </h2>
 
           {/* Resume */}
           <div className="mb-6">
@@ -965,9 +962,9 @@ function PracticePageInner() {
         <div className="max-w-4xl mx-auto">
           {/* Header */}
           <div className="flex justify-between items-center mb-6">
-            <h1 className="text-2xl md:text-4xl font-bold">
+            <h2 className="text-2xl md:text-4xl font-bold">
               {t.interviewReport}
-            </h1>
+            </h2>
             <button
               onClick={() => window.print()}
               className="flex items-center gap-2 px-4 py-2 bg-neutral-100 rounded-lg hover:bg-neutral-200 transition text-sm font-medium"
@@ -1107,11 +1104,5 @@ function PracticePageInner() {
 }
 
 export default function PracticePage() {
-  return (
-    <Suspense
-      fallback={<div className="p-8 text-center">Loading...</div>}
-    >
-      <PracticePageInner />
-    </Suspense>
-  );
+  return <PracticePageInner />;
 }
