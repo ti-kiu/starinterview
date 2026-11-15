@@ -74,7 +74,7 @@ export default function TellMeAboutYourselfPage() {
             description: "Learn the proven framework to craft a compelling answer to the most common interview question. With examples and AI practice.",
             author: { "@type": "Organization", name: "StarInterview", url: "https://starinterview.org" },
             publisher: { "@type": "Organization", name: "StarInterview", url: "https://starinterview.org", logo: { "@type": "ImageObject", url: "https://starinterview.org/favicon-32.png" } },
-            datePublished: "2026-01-15",
+            datePublished: "2026-07-08",
             dateModified: "2026-07-25",
             mainEntityOfPage: "https://starinterview.org/how-to-answer-tell-me-about-yourself",
             image: "https://starinterview.org/og-image.png",

@@ -190,7 +190,7 @@ export default function StarMethodPage() {
               description: "Complete guide to the STAR method with examples, common mistakes, and tips for non-native English speakers.",
               author: { "@type": "Organization", name: "StarInterview", url: "https://starinterview.org" },
               publisher: { "@type": "Organization", name: "StarInterview", url: "https://starinterview.org", logo: { "@type": "ImageObject", url: "https://starinterview.org/favicon.ico" } },
-              datePublished: "2026-01-15",
+              datePublished: "2026-07-08",
               dateModified: "2026-07-09",
               mainEntityOfPage: "https://starinterview.org/star-method",
               image: "https://starinterview.org/og-image.png",

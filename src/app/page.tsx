@@ -53,36 +53,6 @@ const roles = [
   "Customer Service",
 ];
 
-const testimonials = [
-  {
-    quote:
-      "I went from fumbling through behavioral questions to getting offers at two Fortune 500 companies. The STAR feedback was a game-changer.",
-    name: "Sarah K.",
-    role: "Software Engineer",
-    company: "now at Google",
-    initials: "SK",
-    color: "bg-blue-500",
-  },
-  {
-    quote:
-      "As a non-native English speaker, I always struggled with interviews. This tool helped me structure my answers and sound confident.",
-    name: "Raj P.",
-    role: "Data Analyst",
-    company: "now at Amazon",
-    initials: "RP",
-    color: "bg-green-500",
-  },
-  {
-    quote:
-      "I practiced for 2 weeks before my PM interviews. The AI caught patterns I didn't see — like always forgetting to quantify results.",
-    name: "Michelle T.",
-    role: "Product Manager",
-    company: "now at Stripe",
-    initials: "MT",
-    color: "bg-purple-500",
-  },
-];
-
 export default function Home() {
   return (
     <>
@@ -96,7 +66,7 @@ export default function Home() {
             description: "Practice the STAR method with AI-powered feedback and generate strong interview answers for free. No signup required.",
             author: { "@type": "Organization", name: "StarInterview", url: "https://starinterview.org" },
             publisher: { "@type": "Organization", name: "StarInterview", url: "https://starinterview.org", logo: { "@type": "ImageObject", url: "https://starinterview.org/favicon-32.png" } },
-            datePublished: "2026-01-15",
+            datePublished: "2026-07-08",
             dateModified: "2026-07-25",
             mainEntityOfPage: "https://starinterview.org",
             image: "https://starinterview.org/og-image.png",
@@ -162,18 +132,13 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Social proof bar — with user count */}
+      {/* Early-access note — no user counts or company endorsements */}
       <section className="bg-neutral-100 border-b border-neutral-200 py-5">
-        <div className="max-w-[1100px] mx-auto px-5 flex flex-wrap items-center justify-center gap-x-8 gap-y-2 text-sm text-neutral-500">
-          <span className="font-semibold text-primary">
-            Trusted by 500+ job seekers
-          </span>
-          <span className="text-neutral-400">·</span>
-          <span className="font-semibold text-neutral-700">Google</span>
-          <span className="font-semibold text-neutral-700">Amazon</span>
-          <span className="font-semibold text-neutral-700">Meta</span>
-          <span className="font-semibold text-neutral-700">Microsoft</span>
-          <span className="font-semibold text-neutral-700">Apple</span>
+        <div className="max-w-[1100px] mx-auto px-5 text-center">
+          <p className="text-sm text-neutral-600">
+            <span className="font-semibold text-primary">Beta</span>
+            {" — we're collecting real feedback."}
+          </p>
         </div>
       </section>
 
@@ -320,51 +285,26 @@ export default function Home() {
         </div>
       </section>
 
-      {/* P1-7: Testimonials */}
+      {/* Early access — no invented testimonials */}
       <section className="py-16 md:py-20 bg-neutral-50">
-        <div className="max-w-[1100px] mx-auto px-5">
-          <div className="text-center mb-10">
-            <h2 className="text-2xl md:text-3xl font-bold mb-3">
-              What job seekers say
-            </h2>
-            <p className="text-neutral-500">
-              Real stories from candidates who leveled up their interview game.
-            </p>
-          </div>
-          <div className="grid md:grid-cols-3 gap-6">
-            {testimonials.map((t, i) => (
-              <div
-                key={i}
-                className="bg-white rounded-xl border border-neutral-200 p-6"
-              >
-                <div className="flex gap-1 mb-3">
-                  {[...Array(5)].map((_, j) => (
-                    <span key={j} className="text-yellow-400 text-sm">
-                      ★
-                    </span>
-                  ))}
-                </div>
-                <p className="text-neutral-700 text-sm leading-relaxed mb-4">
-                  &ldquo;{t.quote}&rdquo;
-                </p>
-                <div className="flex items-center gap-3">
-                  <div className={`w-10 h-10 rounded-full ${t.color} flex items-center justify-center text-white text-sm font-bold shrink-0`}>
-                    {t.initials}
-                  </div>
-                  <div>
-                    <p className="font-semibold text-sm text-neutral-900">
-                      {t.name}
-                    </p>
-                    <p className="text-xs text-neutral-500">
-                      {t.role} · {t.company}
-                    </p>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
-          <p className="text-center text-xs text-neutral-400 mt-6">
-            Real testimonials coming soon — these are representative examples.
+        <div className="max-w-[640px] mx-auto px-5 text-center">
+          <h2 className="text-2xl md:text-3xl font-bold mb-3">
+            Beta — we&apos;re collecting real feedback
+          </h2>
+          <p className="text-neutral-600 leading-relaxed mb-4">
+            StarInterview is in early access. Testimonials will appear here
+            only after real job seekers share them. Until then, there are no
+            user counts or success rates to show.
+          </p>
+          <p className="text-sm text-neutral-500">
+            Tried a practice session?{" "}
+            <a
+              href="mailto:hello@starinterview.org"
+              className="text-primary font-medium hover:underline"
+            >
+              Tell us what helped
+            </a>
+            .
           </p>
         </div>
       </section>
