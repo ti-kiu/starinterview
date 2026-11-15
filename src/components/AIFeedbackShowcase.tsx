@@ -9,8 +9,8 @@ export default function AIFeedbackShowcase() {
           <span className="text-primary text-lg">★</span>
         </div>
         <div>
-          <p className="font-semibold text-sm">AI Feedback</p>
-          <p className="text-xs text-neutral-500">Your STAR Score: 82/100</p>
+          <p className="font-semibold text-sm">Sample AI Feedback</p>
+          <p className="text-xs text-neutral-500">Example STAR score: 82/100</p>
         </div>
       </div>
 
@@ -49,22 +49,11 @@ export default function AIFeedbackShowcase() {
         </p>
       </div>
 
-      {/* Success Rate */}
-      <div className="bg-green-50 border border-green-200 rounded-xl p-4">
-        <div className="flex items-center justify-between mb-2">
-          <p className="text-xs font-semibold text-green-800">
-            📈 Interview Success Rate
-          </p>
-          <span className="text-xs font-bold text-green-600">+65%</span>
-        </div>
-        <div className="w-full bg-green-200 rounded-full h-2">
-          <div
-            className="bg-green-500 h-2 rounded-full"
-            style={{ width: "82%" }}
-          ></div>
-        </div>
-        <p className="text-[10px] text-green-600 mt-2">
-          Based on 500+ users who practiced with StarInterview
+      {/* Sample card — not a measured outcome */}
+      <div className="bg-neutral-50 border border-neutral-200 rounded-xl p-4">
+        <p className="text-[11px] text-neutral-600 leading-relaxed">
+          This card is an example of the STAR breakdown. It is not a measured
+          success rate.
         </p>
       </div>
     </div>

@@ -122,8 +122,8 @@ export default function BehavioralInterviewPage() {
             description: "Master behavioral interview questions with AI-powered STAR method practice. Common questions by category with examples.",
             author: { "@type": "Organization", name: "StarInterview", url: "https://starinterview.org" },
             publisher: { "@type": "Organization", name: "StarInterview", url: "https://starinterview.org", logo: { "@type": "ImageObject", url: "https://starinterview.org/favicon-32.png" } },
-            datePublished: "2026-01-15",
-            dateModified: "2026-07-25",
+            datePublished: "2026-07-08",
+            dateModified: "2026-11-15",
             mainEntityOfPage: "https://starinterview.org/behavioral-interview",
             image: "https://starinterview.org/og-image.png",
             speakable: {
