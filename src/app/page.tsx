@@ -67,7 +67,7 @@ export default function Home() {
             author: { "@type": "Organization", name: "StarInterview", url: "https://starinterview.org" },
             publisher: { "@type": "Organization", name: "StarInterview", url: "https://starinterview.org", logo: { "@type": "ImageObject", url: "https://starinterview.org/favicon-32.png" } },
             datePublished: "2026-07-08",
-            dateModified: "2026-07-25",
+            dateModified: "2026-11-15",
             mainEntityOfPage: "https://starinterview.org",
             image: "https://starinterview.org/og-image.png",
             speakable: {
@@ -289,12 +289,13 @@ export default function Home() {
       <section className="py-16 md:py-20 bg-neutral-50">
         <div className="max-w-[640px] mx-auto px-5 text-center">
           <h2 className="text-2xl md:text-3xl font-bold mb-3">
-            Beta — we&apos;re collecting real feedback
+            What we want to hear
           </h2>
           <p className="text-neutral-600 leading-relaxed mb-4">
-            StarInterview is in early access. Testimonials will appear here
-            only after real job seekers share them. Until then, there are no
-            user counts or success rates to show.
+            If you practice here, tell us whether the STAR scores match what
+            you meant, which suggestions helped you rewrite an answer, and
+            what still feels confusing before an interview. Real testimonials
+            will be added here only when people share them.
           </p>
           <p className="text-sm text-neutral-500">
             Tried a practice session?{" "}
@@ -434,7 +435,7 @@ export default function Home() {
             ))}
           </div>
           <p className="text-xs text-neutral-400 mt-6 text-center">
-            Last updated: July 2026 · Content reviewed monthly for accuracy
+            Last updated: November 2026 · Content reviewed monthly for accuracy
           </p>
         </div>
       </section>

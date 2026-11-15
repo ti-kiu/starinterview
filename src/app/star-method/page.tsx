@@ -175,7 +175,7 @@ export default function StarMethodPage() {
             ))}
           </div>
           <p className="text-xs text-neutral-400 mt-6 text-center">
-            Last updated: July 2026 · Content reviewed monthly for accuracy
+            Last updated: November 2026 · Content reviewed monthly for accuracy
           </p>
         </section>
 
@@ -191,7 +191,7 @@ export default function StarMethodPage() {
               author: { "@type": "Organization", name: "StarInterview", url: "https://starinterview.org" },
               publisher: { "@type": "Organization", name: "StarInterview", url: "https://starinterview.org", logo: { "@type": "ImageObject", url: "https://starinterview.org/favicon.ico" } },
               datePublished: "2026-07-08",
-              dateModified: "2026-07-09",
+              dateModified: "2026-11-15",
               mainEntityOfPage: "https://starinterview.org/star-method",
               image: "https://starinterview.org/og-image.png",
               speakable: {

@@ -75,7 +75,7 @@ export default function TellMeAboutYourselfPage() {
             author: { "@type": "Organization", name: "StarInterview", url: "https://starinterview.org" },
             publisher: { "@type": "Organization", name: "StarInterview", url: "https://starinterview.org", logo: { "@type": "ImageObject", url: "https://starinterview.org/favicon-32.png" } },
             datePublished: "2026-07-08",
-            dateModified: "2026-07-25",
+            dateModified: "2026-11-15",
             mainEntityOfPage: "https://starinterview.org/how-to-answer-tell-me-about-yourself",
             image: "https://starinterview.org/og-image.png",
             speakable: {

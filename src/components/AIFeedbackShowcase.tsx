@@ -49,11 +49,8 @@ export default function AIFeedbackShowcase() {
         </p>
       </div>
 
-      {/* Early access — sample card, not a measured outcome */}
+      {/* Sample card — not a measured outcome */}
       <div className="bg-neutral-50 border border-neutral-200 rounded-xl p-4">
-        <p className="text-xs font-semibold text-neutral-800 mb-1">
-          Beta — we&apos;re collecting real feedback
-        </p>
         <p className="text-[11px] text-neutral-600 leading-relaxed">
           This card is an example of the STAR breakdown. It is not a measured
           success rate.
