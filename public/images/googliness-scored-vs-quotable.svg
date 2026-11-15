@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 320" role="img" aria-label="Googliness meaning: four public definitions, only one gets scored — the 1-4 rubric and the probe it feeds">
+  <rect width="760" height="320" rx="16" fill="#0f172a"/>
+  <text x="380" y="34" text-anchor="middle" fill="#e2e8f0" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="700">The Googliness meaning, in one picture.</text>
+  <text x="380" y="56" text-anchor="middle" fill="#94a3b8" font-family="Segoe UI, Arial, sans-serif" font-size="13">Four public definitions float around. Only one of them writes your score.</text>
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <rect x="24" y="80" width="330" height="150" rx="12" fill="#1e293b" stroke="#334155"/>
+    <text x="189" y="104" text-anchor="middle" fill="#94a3b8" font-size="12" font-weight="600" letter-spacing="1">QUOTABLE (NOT SCORED)</text>
+    <g font-size="12" fill="#cbd5e1">
+      <text x="44" y="130">• Old internal slang "Googley"</text>
+      <text x="44" y="154">• The 2015 People Ops book list</text>
+      <text x="44" y="178">• Google's candidate prep bullets</text>
+      <text x="44" y="202">• Blog remixes of all three</text>
+    </g>
+    <rect x="406" y="80" width="330" height="150" rx="12" fill="#1e293b" stroke="#6366f1" stroke-width="2"/>
+    <text x="571" y="104" text-anchor="middle" fill="#a5b4fc" font-size="12" font-weight="600" letter-spacing="1">SCORED (WHAT ACTUALLY COUNTS)</text>
+    <g font-size="12" fill="#e0e7ff">
+      <text x="426" y="130">Thrives in ambiguity · Values feedback</text>
+      <text x="426" y="154">Challenges the status quo · Puts users first</text>
+      <text x="426" y="178">Cares about the team · Does the right thing</text>
+      <text x="426" y="206" fill="#94a3b8" font-style="italic">Rated 1–4 vs anchor examples, every round</text>
+    </g>
+    <path d="M354 155 L406 155" stroke="#475569" stroke-width="2" stroke-dasharray="5 4" marker-end="url(#arr)"/>
+    <defs><marker id="arr" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6" fill="#475569"/></marker></defs>
+    <rect x="24" y="248" width="712" height="46" rx="10" fill="#111827" stroke="#334155"/>
+    <text x="380" y="268" text-anchor="middle" fill="#e0e7ff" font-size="13" font-weight="600">Prep loop: mine a story per behavior → say it in 2–3 min → survive the probe → get it scored.</text>
+    <text x="380" y="286" text-anchor="middle" fill="#818cf8" font-size="12">StarInterview scores S / T / A / R separately — free, no signup, voice, 7 languages.</text>
+  </g>
+</svg>

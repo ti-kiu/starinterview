@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="300" viewBox="0 0 720 300" fill="none">
+  <rect width="720" height="300" rx="16" fill="#FAFAFA"/>
+  <text x="360" y="34" font-family="Arial" font-size="15" fill="#404040" text-anchor="middle" font-weight="bold">Free Mock Practice That Scores: Question → Speak → S/T/A/R → Repeat</text>
+
+  <!-- step 1 question -->
+  <rect x="30" y="60" width="150" height="70" rx="12" fill="#DBEAFE" stroke="#3B82F6" stroke-width="2"/>
+  <text x="105" y="88" font-family="Arial" font-size="12" fill="#1D4ED8" text-anchor="middle" font-weight="bold">1 · Real question</text>
+  <text x="105" y="106" font-family="Arial" font-size="10" fill="#374151" text-anchor="middle">from your role,</text>
+  <text x="105" y="120" font-family="Arial" font-size="10" fill="#374151" text-anchor="middle">no signup wall</text>
+
+  <!-- step 2 speak -->
+  <rect x="210" y="60" width="150" height="70" rx="12" fill="#FEF9C3" stroke="#EAB308" stroke-width="2"/>
+  <text x="285" y="88" font-family="Arial" font-size="12" fill="#A16207" text-anchor="middle" font-weight="bold">2 · Say it aloud</text>
+  <text x="285" y="106" font-family="Arial" font-size="10" fill="#374151" text-anchor="middle">~90 seconds,</text>
+  <text x="285" y="120" font-family="Arial" font-size="10" fill="#374151" text-anchor="middle">any of 7 languages</text>
+
+  <!-- step 3 score -->
+  <rect x="390" y="60" width="150" height="70" rx="12" fill="#F3E8FF" stroke="#A855F7" stroke-width="2"/>
+  <text x="465" y="88" font-family="Arial" font-size="12" fill="#7E22CE" text-anchor="middle" font-weight="bold">3 · Four scores</text>
+  <text x="465" y="106" font-family="Arial" font-size="10" fill="#374151" text-anchor="middle">S / T / A / R each /10</text>
+  <text x="465" y="120" font-family="Arial" font-size="10" fill="#374151" text-anchor="middle">+ overtime flag</text>
+
+  <!-- step 4 repeat -->
+  <rect x="570" y="60" width="120" height="70" rx="12" fill="#DCFCE7" stroke="#22C55E" stroke-width="2"/>
+  <text x="630" y="88" font-family="Arial" font-size="12" fill="#15803D" text-anchor="middle" font-weight="bold">4 · Re-tell</text>
+  <text x="630" y="106" font-family="Arial" font-size="10" fill="#374151" text-anchor="middle">fix weakest</text>
+  <text x="630" y="120" font-family="Arial" font-size="10" fill="#374151" text-anchor="middle">dim until 8+</text>
+
+  <!-- arrows -->
+  <g font-family="Arial" font-size="16" fill="#9CA3AF">
+    <text x="184" y="98">→</text>
+    <text x="364" y="98">→</text>
+    <text x="544" y="98">→</text>
+  </g>
+
+  <!-- feedback loop -->
+  <path d="M 630 138 L 630 185 Q 630 200 615 200 L 120 200 Q 105 200 105 185 L 105 138" stroke="#A855F7" stroke-width="2" stroke-dasharray="6 5" fill="none"/>
+  <text x="360" y="190" font-family="Arial" font-size="11" fill="#7E22CE" text-anchor="middle" font-weight="bold">15 minutes · same question 3 times — scored reps beat long unmeasured sessions</text>
+
+  <!-- other tools comparison strip -->
+  <rect x="30" y="230" width="660" height="44" rx="10" fill="#F5F5F5" stroke="#E5E5E5" stroke-width="1.5"/>
+  <text x="46" y="249" font-family="Arial" font-size="11" fill="#737373" font-weight="bold">Typical mock tools: sign up first, 1 free interview a month, feedback on filler words.</text>
+  <text x="46" y="266" font-family="Arial" font-size="11" fill="#404040">Here: 10 sessions/day free, no account, STAR dimensions scored on your spoken answer.</text>
+</svg>
