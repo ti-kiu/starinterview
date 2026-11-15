@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="260" viewBox="0 0 720 260" fill="none">
+  <rect width="720" height="260" rx="16" fill="#FAFAFA"/>
+  <text x="360" y="30" font-family="Arial" font-size="15" fill="#404040" text-anchor="middle" font-weight="bold">Warmup Is Gone — What the Same Speaking Habit Looks Like Now</text>
+
+  <!-- retired column -->
+  <text x="180" y="58" font-family="Arial" font-size="12" fill="#DC2626" text-anchor="middle" font-weight="bold">Google Interview Warmup (retired Dec 2025)</text>
+  <rect x="30" y="70" width="300" height="52" rx="10" fill="#FEE2E2" stroke="#F87171" stroke-width="1.5"/>
+  <text x="180" y="92" font-family="Arial" font-size="11" fill="#7F1D1D" text-anchor="middle" font-weight="bold">Speak an answer → live transcript</text>
+  <text x="180" y="109" font-family="Arial" font-size="10" fill="#991B1B" text-anchor="middle">then word counts. No score, no follow-up.</text>
+  <rect x="30" y="132" width="300" height="52" rx="10" fill="#FEE2E2" stroke="#F87171" stroke-width="1.5"/>
+  <text x="180" y="154" font-family="Arial" font-size="11" fill="#7F1D1D" text-anchor="middle" font-weight="bold">Old link now redirects</text>
+  <text x="180" y="171" font-family="Arial" font-size="10" fill="#991B1B" text-anchor="middle">to a generic article — no replacement tool</text>
+  <text x="180" y="208" font-family="Arial" font-size="10" fill="#B91C1C" text-anchor="middle" font-style="italic">Practice with no feedback loop = reps that stall</text>
+
+  <!-- arrow -->
+  <path d="M 340 130 L 380 130" stroke="#404040" stroke-width="2.5" marker-end="url(#arr)"/>
+  <defs>
+    <marker id="arr" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#404040"/>
+    </marker>
+  </defs>
+
+  <!-- scored column -->
+  <text x="535" y="58" font-family="Arial" font-size="12" fill="#15803D" text-anchor="middle" font-weight="bold">Free scored mock (no signup)</text>
+  <rect x="390" y="70" width="290" height="52" rx="10" fill="#DCFCE7" stroke="#4ADE80" stroke-width="1.5"/>
+  <text x="535" y="92" font-family="Arial" font-size="11" fill="#14532D" text-anchor="middle" font-weight="bold">Role question → speak out loud</text>
+  <text x="535" y="109" font-family="Arial" font-size="10" fill="#166534" text-anchor="middle">same habit, 7 languages, restart anytime</text>
+  <rect x="390" y="132" width="290" height="52" rx="10" fill="#DCFCE7" stroke="#4ADE80" stroke-width="1.5"/>
+  <text x="535" y="154" font-family="Arial" font-size="11" fill="#14532D" text-anchor="middle" font-weight="bold">S / T / A / R scored separately → re-tell</text>
+  <text x="535" y="171" font-family="Arial" font-size="10" fill="#166534" text-anchor="middle">fix the weakest dimension until all read 8+</text>
+  <text x="535" y="208" font-family="Arial" font-size="10" fill="#15803D" text-anchor="middle" font-style="italic">Graded reps — the half Warmup never had</text>
+
+  <rect x="30" y="226" width="650" height="22" rx="6" fill="#171717"/>
+  <text x="355" y="241" font-family="Arial" font-size="11" fill="#FAFAFA" text-anchor="middle">10 free scored sessions a day · no account · no card</text>
+</svg>

@@ -129,6 +129,20 @@ export default async function InterviewQuestionPage({
             <p className="text-lg text-neutral-600 leading-relaxed">
               {page.intro}
             </p>
+            {slug === "googliness" && (
+              <p className="text-lg text-neutral-600 leading-relaxed mt-4">
+                These are googliness interview questions with sample answers.
+                For what googliness means, the four scoring dimensions, and how
+                Google interview questions in that round are rated, read the{" "}
+                <Link
+                  href="/google-interview"
+                  className="text-primary font-medium hover:underline"
+                >
+                  Google Googliness interview guide
+                </Link>
+                .
+              </p>
+            )}
           </div>
         </section>
 
